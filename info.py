@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'ziplinker.net'))
-STREAM_API = (environ.get('STREAM_API', '471070a8ec58b9558ac9d7e4b3682bcb6f1383c7'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'krishnalink.com'))
+STREAM_API = (environ.get('STREAM_API', '60269685b0e1a37332d4d8e538bc66df60f801f5'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/PlayJustMovie'))
 
 # Admins, Channels & Users
