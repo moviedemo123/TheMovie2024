@@ -241,23 +241,25 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>"""
     
     IMDB_TEMPLATE_TXT = """
-<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
+<b>Query: {qurey}
 
-🧿 {title}</b>
+IMDb Data:
+
+<b>🏷 Title</b>: <a href={url}>{title}</a>
 
 <b>⭐ {rating} | ⏰ {runtime} Minutes
 📆 {release_date}
 🕵️ {director}
 
-●  {languages}
-●  {genres}
+☀️  {languages}
+🎭  {genres}
 
 📖 {plot}
 
-💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}</b>
-"""
-    
+⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
+💗 Requested by : {message.from_user.mention}</b>"""
+    
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
