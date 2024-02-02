@@ -238,7 +238,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 🔰 Join For Back-up
 @newrelease1234
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>"""
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
