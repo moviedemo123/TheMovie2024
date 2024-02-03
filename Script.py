@@ -440,5 +440,5 @@ BOT WORKING PROPERLY"""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developer -
 
--Dev [Owner of this bot ]<a href='https://t.me/Vikastime'>HP</a>
+-Dev [Owner of this bot ]<a href='https://t.me/Vikastime'>VT</a>
 """
