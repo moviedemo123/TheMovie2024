@@ -167,7 +167,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
     else:
         btn.insert(0, 
@@ -182,7 +182,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
 
     try:
@@ -400,7 +400,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
     else:
         btn.insert(0, 
@@ -415,7 +415,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
     if offset != "":
         try:
@@ -558,7 +558,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
     else:
         btn.insert(0, 
@@ -573,7 +573,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
 
     if offset != "":
@@ -747,7 +747,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
     else:
         btn.insert(0, 
@@ -762,7 +762,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
     
     offset = 0
@@ -2099,7 +2099,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
     else:
         btn.insert(0, 
@@ -2114,7 +2114,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=seeplans)
+            InlineKeyboardButton("🎀 Bᴜʏ Pʀɪᴍɪᴜᴍ Fᴏʀ Aᴅs Fʀᴇᴇ 🎀", callback_data=f"seeplans")
         ])
     if offset != "":
         req = message.from_user.id if message.from_user else 0
