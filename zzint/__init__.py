@@ -1,4 +1,3 @@
-#1
 import time
 
 StartTime = time.time()
