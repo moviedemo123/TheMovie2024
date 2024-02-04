@@ -1,4 +1,3 @@
-#1
 #Thanks @DeletedFromEarth for helping in this journey 
 def human_size(bytes, units=[' bytes','KB','MB','GB','TB', 'PB', 'EB']):
     """ Returns a human readable string representation of bytes """
