@@ -1,4 +1,3 @@
-#1
 <p align="center">
   <img src="https://telegra.ph/file/62634970e4d5f4bcdc25f.jpg" alt="Vikas-Update-Bot Logo">
 </p>
