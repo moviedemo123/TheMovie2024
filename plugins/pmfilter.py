@@ -1599,12 +1599,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
-        await query.message.reply_photo(
+        s = await query.message.reply_photo(
             photo=(SUBSCRIPTION),
             caption=script.PREPLANS_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        await asyncio.sleep(30)
+            await k.delete()
 
     elif query.data == "give_trial":
         userid = query.from_user.id
